@@ -1,10 +1,10 @@
-(function() {
-    
+(function () {
+
     "use strict";
-    
+
     //===== Prealoder
 
-    window.onload = function() {
+    window.onload = function () {
         window.setTimeout(fadeout, 500);
     }
 
@@ -13,7 +13,7 @@
         document.querySelector('.preloader').style.display = 'none';
     }
 
-    
+
     /*=====================================
     Sticky
     ======================================= */
@@ -24,10 +24,10 @@
 
         if (window.pageYOffset > sticky) {
             header_navbar.classList.add("sticky");
-            logo.setAttribute("src", "assets/images/logo-2.svg")
+            logo.setAttribute("src", "assets/images/logobw.png")
         } else {
             header_navbar.classList.remove("sticky");
-            logo.setAttribute("src", "assets/images/logo.svg")
+            logo.setAttribute("src", "assets/images/logobw.png")
         }
 
 
@@ -46,7 +46,7 @@
 
     // for menu scroll 
     var pageLink = document.querySelectorAll('.page-scroll');
-    
+
     pageLink.forEach(elem => {
         elem.addEventListener('click', e => {
             e.preventDefault();
@@ -80,7 +80,7 @@
 
 
     //===== close navbar-collapse when a  clicked
-    let navbarToggler = document.querySelector(".navbar-toggler");    
+    let navbarToggler = document.querySelector(".navbar-toggler");
     var navbarCollapse = document.querySelector(".navbar-collapse");
 
     navbarToggler.addEventListener('click', () => {
@@ -96,7 +96,7 @@
 
 
     //===== glide tiny for testimonial
-    
+
     tns({
         container: '.testimonial_active',
         items: 1,
@@ -116,8 +116,8 @@
     wow.init();
 
 
-        // ====== scroll top js
-    function scrollTo(element, to = 0, duration= 1000) {
+    // ====== scroll top js
+    function scrollTo(element, to = 0, duration = 1000) {
 
         const start = element.scrollTop;
         const change = to - start;
@@ -142,15 +142,15 @@
 
     Math.easeInOutQuad = function (t, b, c, d) {
 
-        t /= d/2;
-        if (t < 1) return c/2*t*t + b;
+        t /= d / 2;
+        if (t < 1) return c / 2 * t * t + b;
         t--;
-        return -c/2 * (t*(t-2) - 1) + b;
+        return -c / 2 * (t * (t - 2) - 1) + b;
     };
 
     document.querySelector('.back-to-top').onclick = function () {
-        scrollTo(document.documentElement); 
+        scrollTo(document.documentElement);
     }
 
-    
+
 })();
