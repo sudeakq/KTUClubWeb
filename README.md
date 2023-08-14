@@ -22,12 +22,3 @@ Eğer projeye katkı sağlamak isterseniz, aşağıdaki adımları takip edebili
 7. GitHub'da kendi forkladığınız repo'ya gidin ve "Pull Request" oluşturun.
 
 Eğer herhangi bir sorunuz veya öneriniz varsa, lütfen "Issues" bölümünden bize bildirin.
-
-## Lisans
-
-Bu proje [MIT Lisansı](LISANS) ile lisanslanmıştır. Detaylı bilgi için [LISANS](LISANS) dosyasını inceleyebilirsiniz.
-
----
-
-**Not:** Bu README şablonu sadece başlangıç seviyesinde bir örnektir. Lütfen projeyle ilgili detayları ve gereksinimleri dikkate alarak özelleştirin.
-
