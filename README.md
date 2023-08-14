@@ -14,7 +14,8 @@ Bu repository, Karadeniz Teknik Üniversitesi Yazılım Kulübü'nün web sitesi
 
 Eğer projeye katkı sağlamak isterseniz, aşağıdaki adımları takip edebilirsiniz:
 
-### Lütfen önce issue açmayı unutmayınız.
+Lütfen önce issue açmayı unutmayınız.
+
 1. Bu repository'i forklayın (sağ üst köşedeki "Fork" butonu ile).
 2. Forkladığınız kendi kopyanızın bağlantısını kopyalayın.
 3. Bilgisayarınıza git kurulu ise: `git clone <forkladığınız-repo-bağlantısı>`
