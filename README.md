@@ -8,6 +8,7 @@ Bu repository, Karadeniz Teknik Üniversitesi Yazılım Kulübü'nün web sitesi
 - SCSS (Sass)
 - Bootstrap
 - Font Awesome
+- JavaScript
 
 ## Katkı Sağlama
 
