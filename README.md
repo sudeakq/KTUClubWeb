@@ -1,6 +1,8 @@
 # Karadeniz Teknik Üniversitesi Yazılım Kulübü Web Sitesi
 
-Bu repository, Karadeniz Teknik Üniversitesi Yazılım Kulübü'nün web sitesi için geliştirme çalışmalarını içerir. Web sitesi HTML, SCSS, Sass, Bootstrap ve Font Awesome gibi teknolojiler ve kütüphaneler kullanılarak oluşturulmuştur.
+Bu repository, Karadeniz Teknik Üniversitesi Yazılım Kulübü'nün web sitesi için geliştirme çalışmalarını içerir.
+www.ktuyazilim.com adresinden projenin canlı haline erişebilirsiniz
+Web sitesi HTML, SCSS, Sass, Bootstrap ve Font Awesome gibi teknolojiler ve kütüphaneler kullanılarak oluşturulmuştur.
 
 ## Teknolojiler ve Kütüphaneler
 
